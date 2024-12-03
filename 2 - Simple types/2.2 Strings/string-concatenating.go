@@ -18,3 +18,9 @@ sb.WriteString(s2)
 var s5 = sb.String()
 fmt.Println(s5)
 // Output: Hello, world!
+
+// String list concatenation
+var numbers = []string{"one", "two", "three"}
+var numberList = strings.Join(s6, "; ")
+fmt.Println(numberList)
+// Output: one; two; three
